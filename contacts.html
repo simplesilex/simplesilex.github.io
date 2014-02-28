@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>SimpleSilex</title>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXHy3YzEBjLrh2yz6MAdoD91Jql2_9-w0&sensor=false">
+    </script>
+    <script type="text/javascript">
+        function initialize() {
+            var myLatlng = new google.maps.LatLng(50.450070, 30.523268);
+            var mapOptions = {
+                center: myLatlng,
+                zoom: 4
+            };
+            var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                title:"Ukraine\nKiev"
+            });
+            marker.setMap(map);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">SimpleSilex</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/products.html">Products</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li class="active"><a href="/contacts.html">Contacts</a></li>
+                </ul>
+                <a href="https://github.com/simplesilex" class="btn btn-default navbar-btn  navbar-right">View on GitHub</a>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+    <div class="content container">
+        <div class="row">
+            <section class="contact-address col-sm-7 col-md-8">
+                <h3>Address</h3>
+                <address>
+                    <ul class="contact-address-list list-inline">
+                        <li><span class="glyphicon glyphicon-map-marker"></span> Ukraine, Kiev</li>
+                        <li><span class="glyphicon glyphicon-envelope"></span> simplesilex@gmail.com</li>
+                        <li><span class="glyphicon glyphicon-globe"></span> www.simplesilex.com</li>
+                        <li><span class="glyphicon glyphicon-earphone"></span> +380 44 383 40 01</li>
+                    </ul>
+                </address>
+                <div id="map-canvas"></div>
+                
+            </section>
+            <form class="contact-form col-sm-5 col-md-4" method="post" action="" name="contact-form" role="form">
+                <h3>Contact form</h3>
+                <div class="form-group has-feedback">
+                    <label class="control-label" for="name">Full name</label>
+                    <input class="form-control" type="text" id="name" placeholder="Enter your name">
+                    <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                </div>
+                <div class="form-group has-feedback">
+                    <label class="control-label" for="email">Email</label>
+                    <input class="form-control" type="email" id="email" placeholder="Enter email">
+                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                </div>
+                <div class="form-group has-feedback">
+                    <label class="control-label" for="subject">Subject</label>
+                    <input class="form-control" type="text" id="subject" placeholder="Enter subject">
+                    <span class="glyphicon glyphicon-question-sign form-control-feedback"></span>
+                </div>
+                <div class="form-group has-feedback">
+                    <label class="control-label" for="message">Message</label>
+                    <textarea class="form-control" rows="8" id="message" placeholder="Enter message"></textarea>
+                    <span class="glyphicon glyphicon-pencil form-control-feedback"></span>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="footer text-center">
+        <span class="glyphicon glyphicon-copyright-mark"></span> 2014 SimpleSilex
+    </footer>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

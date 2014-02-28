@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px;
+    height: 100%;  
+}
+
+.navbar-brand {
+    padding-left: 65px;
+    background: url("../img/SiO2-logo.png")  15px no-repeat;
+}
+
+.content {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+.glyphicon {
+    color: #999;
+}
+
+.contact-address > address {
+    margin-bottom: 0px;
+}
+
+.contact-address-list {
+    margin-bottom: 5px;
+    height: 20px;
+    overflow: hidden;
+}
+
+#map-canvas {
+    width: 100%;
+    height: 450px;
+}
+
+.form-control:focus + .glyphicon {
+    color: #66afe9;
+}
+
+.footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    margin-top: -51px;
+    line-height: 50px;
+    background: #f7f7f7;
+    border-top: 1px solid #ccc;
+}
+

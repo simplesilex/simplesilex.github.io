@@ -1,0 +1,23 @@
+{
+  "name": "SimpleSilex",
+  "homepage": "https://www.simplesilex.com",
+  "authors": [
+    "davletshin <yuriy.davletshin@gmail.com>"
+  ],
+  "description": "simplesilex.github.io",
+  "keywords": [
+    "Bootstap",
+    "JQuery"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.0",
+    "jquery": "~2.1.0"
+  }
+}
