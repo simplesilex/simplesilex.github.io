@@ -3,13 +3,23 @@ html {
 }
 
 body {
-    padding-top: 50px;
-    height: 100%;  
+    padding-top: 52px;
+    height: 100%;
+    background: #f7f7f7;
+}
+
+.navbar {
+    /*background: url('../img/wEtyR.jpg');*/
 }
 
 .navbar-brand {
-    padding-left: 50px;
-    background: url("../img/SiO2-logo.png")  15px no-repeat;
+    /*padding-left: 50px;*/
+    /*background: url('../img/SiO2-logo.png')  15px no-repeat;*/
+}
+
+.navbar-inverse  .navbar-brand:hover {
+    /*color: #fe9900;*/
+    text-shadow: 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(153,153,153,.6);
 }
 
 .content {
@@ -20,6 +30,11 @@ body {
 
 .glyphicon {
     color: #999;
+}
+
+.navbar-brand > .glyphicon,
+.contact-address-list .glyphicon {
+    color: #fe9900;
 }
 
 .contact-address > address {
@@ -48,6 +63,8 @@ body {
     margin-top: -51px;
     line-height: 50px;
     background: #f7f7f7;
-    border-top: 1px solid #ccc;
+    color: #999;
+    border-top: 1px solid #999;
+    background: url('../img/footer-bg.jpg');
 }
 
