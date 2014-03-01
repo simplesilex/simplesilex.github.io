@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <title>SimpleSilex</title>
+    <title>Contacts - SimpleSilex</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/main.css">
     <script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXHy3YzEBjLrh2yz6MAdoD91Jql2_9-w0&sensor=false">
@@ -49,7 +50,9 @@
                     <li><a href="/about.html">About</a></li>
                     <li class="active"><a href="/contacts.html">Contacts</a></li>
                 </ul>
-                <a href="https://github.com/simplesilex" class="btn btn-success navbar-btn  navbar-right">View on GitHub</a>
+                <a href="https://github.com/simplesilex" class="btn btn-success navbar-btn  navbar-right">
+                    <span class="fa fa-github fa-lg"></span> View on GitHub
+                </a>
             </div><!-- /.navbar-collapse -->
         </div>
     </nav>
@@ -59,10 +62,10 @@
                 <h3>Address</h3>
                 <address>
                     <ul class="contact-address-list list-inline">
-                        <li><span class="glyphicon glyphicon-map-marker"></span> Ukraine, Kiev</li>
-                        <li><span class="glyphicon glyphicon-envelope"></span> simplesilex@gmail.com</li>
-                        <li><span class="glyphicon glyphicon-globe"></span> www.simplesilex.com</li>
-                        <li><span class="glyphicon glyphicon-earphone"></span> +380 44 383 40 01</li>
+                        <li><span class="fa fa-map-marker"></span> Ukraine, Kiev</li>
+                        <li><span class="fa fa-envelope"></span> simplesilex@gmail.com</li>
+                        <li><span class="fa fa-globe"></span> www.simplesilex.com</li>
+                        <li><span class="fa fa-phone"></span> +380 44 383 40 01</li>
                     </ul>
                 </address>
                 <div id="map-canvas"></div>
@@ -73,22 +76,22 @@
                 <div class="form-group has-feedback">
                     <label class="control-label" for="name">Full name</label>
                     <input class="form-control" type="text" id="name" placeholder="Enter your name">
-                    <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                    <span class="fa fa-user form-control-feedback"></span>
                 </div>
                 <div class="form-group has-feedback">
                     <label class="control-label" for="email">Email</label>
                     <input class="form-control" type="email" id="email" placeholder="Enter email">
-                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                    <span class="fa fa-envelope form-control-feedback"></span>
                 </div>
                 <div class="form-group has-feedback">
                     <label class="control-label" for="subject">Subject</label>
                     <input class="form-control" type="text" id="subject" placeholder="Enter subject">
-                    <span class="glyphicon glyphicon-question-sign form-control-feedback"></span>
+                    <span class="fa fa-question-circle form-control-feedback">
                 </div>
                 <div class="form-group has-feedback">
                     <label class="control-label" for="message">Message</label>
                     <textarea class="form-control" rows="8" id="message" placeholder="Enter message"></textarea>
-                    <span class="glyphicon glyphicon-pencil form-control-feedback"></span>
+                    <span class="fa fa-pencil form-control-feedback"></span>
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary">Submit</button>
@@ -97,7 +100,7 @@
         </div>
     </div>
     <footer class="footer text-center">
-        <span class="glyphicon glyphicon-copyright-mark"></span> 2014 SimpleSilex
+        &copy; 2014 SimpleSilex
     </footer>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
