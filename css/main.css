@@ -49,6 +49,22 @@ body {
     color: #66afe9;
 }
 
+.about-principles:hover .fa {
+    color: #5cb85c; /* #47a447 */
+}
+
+.about-team:hover .fa {
+    color: #fe9900;
+}
+
+.about-today:hover .fa {
+    color: #999;
+}
+
+.about-tomorrow:hover .fa {
+    color: #3276b1; /* #428bca */
+}
+
 .contact-address > address {
     margin-bottom: 0px;
 }
