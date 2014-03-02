@@ -50,11 +50,12 @@ body {
 }
 
 .about-principles:hover .fa {
-    color: #5cb85c; /* #47a447 */
+    color: #5cb85c; /* #5cb85c; */ /* #47a447 */
+    /*text-shadow: 3px 3px 5px #5cb85c;*/
 }
 
 .about-team:hover .fa {
-    color: #fe9900;
+    color: #fe9900; /* #fe9900 */
 }
 
 .about-today:hover .fa {
@@ -62,7 +63,7 @@ body {
 }
 
 .about-tomorrow:hover .fa {
-    color: #3276b1; /* #428bca */
+    color: #3276b1; /* #3276b1; */ /* #428bca */
 }
 
 .contact-address > address {
