@@ -8,17 +8,7 @@ body {
     background: #f7f7f7;
 }
 
-.navbar {
-    /*background: url('../img/wEtyR.jpg');*/
-}
-
-.navbar-brand {
-    /*padding-left: 50px;*/
-    /*background: url('../img/SiO2-logo.png')  15px no-repeat;*/
-}
-
 .navbar-inverse  .navbar-brand:hover {
-    /*color: #fe9900;*/
     text-shadow: 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(153,153,153,.6);
 }
 
@@ -31,10 +21,6 @@ body {
 .carousel {
     margin-bottom: 20px;
 }
-
-/*.glyphicon {
-    color: #999;
-}*/
 
 .navbar-brand > .glyphicon,
 .contact-address-list .fa {
@@ -50,12 +36,11 @@ body {
 }
 
 .about-principles:hover .fa {
-    color: #5cb85c; /* #5cb85c; */ /* #47a447 */
-    /*text-shadow: 3px 3px 5px #5cb85c;*/
+    color: #5cb85c;
 }
 
 .about-team:hover .fa {
-    color: #fe9900; /* #fe9900 */
+    color: #fe9900;
 }
 
 .about-today:hover .fa {
@@ -63,7 +48,7 @@ body {
 }
 
 .about-tomorrow:hover .fa {
-    color: #3276b1; /* #3276b1; */ /* #428bca */
+    color: #3276b1;
 }
 
 .contact-address > address {
