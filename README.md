@@ -1,3 +1,3 @@
 ## Welcome to SimpleSilex
 
-![Under development](img/under-development.png)
+![Under development](assets/img/under-development.png)
