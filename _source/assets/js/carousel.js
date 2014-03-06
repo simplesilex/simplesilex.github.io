@@ -203,3 +203,10 @@
   })
 
 }(jQuery);
+
+// Custom
+// ======
+
+$('.carousel').carousel({
+  interval: 3000
+})

@@ -1,0 +1,4 @@
+name: SimpleSilex
+markdown: redcarpet
+pygments: true
+source: ./_source
