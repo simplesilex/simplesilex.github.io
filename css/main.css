@@ -61,7 +61,7 @@ body {
     overflow: hidden;
 }
 
-#map-canvas {
+.contact-map {
     width: 100%;
     height: 450px;
 }
