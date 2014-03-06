@@ -8,6 +8,19 @@ body {
     background: #f7f7f7;
 }
 
+.logo {
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    /*line-height: 20px;*/
+    vertical-align: text-top;
+    background: url('../img/logo.png') no-repeat;
+}
+
+.navbar-brand {
+    /*line-height: 16px;*/
+}
+
 .navbar-inverse  .navbar-brand:hover {
     text-shadow: 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(153,153,153,.6);
 }
