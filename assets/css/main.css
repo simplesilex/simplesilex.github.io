@@ -32,7 +32,11 @@ body {
 }
 
 .carousel {
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
+}
+
+.thumbnails {
+    margin-top: 20px;
 }
 
 .navbar-brand > .glyphicon,
