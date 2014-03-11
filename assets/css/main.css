@@ -12,17 +12,8 @@ body {
     display: inline-block;
     width: 18px;
     height: 20px;
-    /*line-height: 20px;*/
     vertical-align: text-top;
     background: url('../img/logo.png') no-repeat;
-}
-
-.navbar-brand {
-    /*line-height: 16px;*/
-}
-
-.navbar-inverse  .navbar-brand:hover {
-    text-shadow: 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(153,153,153,.6);
 }
 
 .content {
@@ -31,25 +22,25 @@ body {
     padding-bottom: 60px;
 }
 
-.carousel {
-    /*margin-bottom: 20px;*/
+.carousel-control .fa-chevron-left,
+.carousel-control .fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-top: -18px;
+    margin-left: -18px;
+    font-size: 36px;
 }
 
 .thumbnails {
     margin-top: 20px;
 }
 
-.navbar-brand > .glyphicon,
-.contact-address-list .fa {
-    color: #fe9900;
-}
-
-.has-feedback > .fa {
-    color: #999;
-}
-
-.form-control:focus + .fa {
-    color: #66afe9;
+.product-header {
+    margin-top: 0;
 }
 
 .about-principles:hover .fa {
@@ -78,9 +69,21 @@ body {
     overflow: hidden;
 }
 
+.contact-address-list .fa {
+    color: #fe9900;
+}
+
 .contact-map {
     width: 100%;
     height: 450px;
+}
+
+.form-control:focus + .fa {
+    color: #66afe9;
+}
+
+.has-feedback > .fa {
+    color: #999;
 }
 
 .footer {
@@ -89,9 +92,7 @@ body {
     width: 100%;
     margin-top: -51px;
     line-height: 50px;
-    background: #f7f7f7;
     color: #999;
     border-top: 1px solid #999;
     background: url('../img/footer-bg.jpg');
 }
-
